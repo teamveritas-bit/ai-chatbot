@@ -1,6 +1,6 @@
 import type { ChatRequest } from "@/types/chat";
 
-const API_BASE_URL = "http://localhost:8000";
+const API_BASE_URL = "https://ai-chatbot-backend-u62x.onrender.com";
 
 export class ChatApiError extends Error {
   constructor(message: string) {
